@@ -1,0 +1,43 @@
+<!-- Answers verified against the live Transparency Center on 2026-09-30. Stable facts only (IDs, names, fixed creative content). -->
+<evaluation>
+  <qa_pair>
+    <question>Among the Google Ads advertiser accounts whose name is exactly "SNCF Connect", which one has the larger estimated number of ads? Give its advertiser ID.</question>
+    <answer>AR05322865601155170305</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Which advertiser (legal entity name) is declared on the Google ads that point to the domain parcasterix.fr in France?</question>
+    <answer>CARAT FRANCE SAS</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>What is the YouTube video ID of the Google video ad CR16250029663726862337 run by advertiser AR10288591614947360769?</question>
+    <answer>uNqXkzcoYxc</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>What is the headline of SNCF Connect's search ad CR01344536737463926785?</question>
+    <answer>Retrouvez Toutes Nos Offres</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>What topic label (in English) does Google assign to the ad CR01344536737463926785 of advertiser AR05322865601155170305?</question>
+    <answer>Travel &amp; Tourism</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>On what date (YYYY-MM-DD) was SNCF Connect's ad CR10209869331177668609 first shown, according to the creative listing of domain sncf-connect.com in France?</question>
+    <answer>2022-03-16</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>For SNCF Connect's ad CR10209869331177668609, which Google platform accounts for the largest share of its impressions in France?</question>
+    <answer>search</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>What is the advertiser ID of the account named "SNCF VOYAGEURS (SA)"?</question>
+    <answer>AR15430077311218614273</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>In which country is the Google advertiser AR10288591614947360769 located? Answer with the ISO country code.</question>
+    <answer>FR</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>What display URL appears in SNCF Connect's search ad CR01344536737463926785?</question>
+    <answer>www.sncf-connect.com/</answer>
+  </qa_pair>
+</evaluation>

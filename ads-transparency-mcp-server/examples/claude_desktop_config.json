@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "ads-transparency": {
+      "command": "node",
+      "args": ["/chemin/vers/ads-transparency-mcp-server/dist/index.js"],
+      "env": {
+        "GATC_DEFAULT_REGION": "FR",
+        "GATC_LANG": "fr"
+      }
+    }
+  }
+}

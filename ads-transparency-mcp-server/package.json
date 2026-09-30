@@ -1,0 +1,42 @@
+{
+  "name": "ads-transparency-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for the Google Ads Transparency Center: advertisers, ads, formats, platforms, impressions and audience criteria.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:http": "node dist/index.js --http",
+    "dev": "tsx src/index.ts",
+    "test": "node --import tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "gen:regions": "node scripts/gen-regions.mjs",
+    "bundle:browser": "esbuild test/live/browser-entry.ts --bundle --format=iife --global-name=GATC --platform=browser --outfile=test/live/gatc-core.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "express": "^5.2.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.20.4",
+    "esbuild": "^0.28.2",
+    "i18n-iso-countries": "^7.14.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  },
+  "type": "module",
+  "bin": {
+    "ads-transparency-mcp-server": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true
+}

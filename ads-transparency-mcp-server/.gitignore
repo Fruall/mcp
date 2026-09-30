@@ -1,0 +1,5 @@
+node_modules/
+dist/
+scratch/
+test/live/gatc-core.js
+*.log
